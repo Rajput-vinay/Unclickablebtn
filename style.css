@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: palegreen;
+  
+   
+}
+
+.btn{
+    position: absolute;
+    display: block;
+    background-color: rgb(130, 148, 241);
+    padding: 0.8rem 2.3rem ;
+    box-shadow: 5px 5px 7px 0px #0000003f;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    cursor: pointer;
+    
+}
+
